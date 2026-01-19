@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- .NET Global Tool Configuration -->
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>dotnet-cat</ToolCommandName>
+    <PackageId>UnixCommands.DotnetCat</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Mohamed Oueslati</Authors>
+    <Description>A cross-platform cat command clone - display file contents</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\UnixCommands.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
